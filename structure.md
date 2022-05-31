@@ -16,17 +16,17 @@
 
 - Category:                      VARCHAR(50)           NULL
 
-- Model:                         VARCHAR(20)           NULL, INDEX
+- Model:                         VARCHAR(20)           NOTNULL, INDEX
 
-- Brand:                         VARCHAR(20)           NULL, INDEX
+- Brand:                         VARCHAR(20)           NOTNULL, INDEX
 
 - Year:                          YEAR                  NULL
 
-- Km traveled:                   VARCHAR(10)           NULL
+- Km traveled:                   FLOAT(8,2)            NULL
 
 - Car review:                    YEAR                  NULL
 
-- Price:                         DECIMAL(8,2)          NULL
+- Price:                         DECIMAL(8,2)          NOTNULL
 
 - Special_price:                 DECIMAL(8,2)          NULL
 
