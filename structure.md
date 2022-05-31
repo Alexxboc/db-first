@@ -16,9 +16,9 @@
 
 - Category:                      VARCHAR(50)           NULL
 
-- Model:                         VARCHAR(20)           NULL
+- Model:                         VARCHAR(20)           NULL, INDEX
 
-- Brand:                         VARCHAR(20)           NULL
+- Brand:                         VARCHAR(20)           NULL, INDEX
 
 - Year:                          YEAR                  NULL
 
